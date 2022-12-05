@@ -1,0 +1,17 @@
+.margin-center{
+    margin: 0 auto !important;
+    max-width: 800px;
+}
+.margin-center-2{
+    margin: 0 auto !important;
+    max-width: 1800px;
+}
+/*Header
+header{
+    background-color: black !important;
+}
+/*Index*/
+.ali{
+    max-height: auto;
+    max-width: 250px;
+}
