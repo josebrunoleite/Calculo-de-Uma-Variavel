@@ -23,20 +23,20 @@ include_once('padrao/navbar.php');
 </div>-->
 
 <!--Info 2-->
-<div class="card text-bg-dark mt-2 container">
-  <img src="img/index/01.jpg" class="card-img ali" alt="...">
-  <div class="card-img-overlay text-end">
+<div class="card cor2 mt-2 container p-4">
+  <img src="img/index/01.webp" class="card-img ali" alt="...">
+  <div class="card-img-overlay text-bold text-end text-light">
     <h5 class="card-title">Titulo</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small>Author</small></p>
+    <p class="card-text">Texto aonde explica que o site é de explicação rapida.</p>
+    <!--<p class="card-text"><small>Author</small></p>-->
   </div>
 </div>
 <!--Acordeon-->
-<div class="container-xxl mt-5">
+<div class="container-xxl fw-bold mt-5">
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button cor-acorde" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         Accordion Item #1
       </button>
     </h2>
@@ -47,8 +47,8 @@ include_once('padrao/navbar.php');
     </div>
   </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+    <h2 class="accordion-header " id="headingTwo">
+      <button class="accordion-button collapsed cor-acorde" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         Accordion Item #2
       </button>
     </h2>
@@ -60,7 +60,7 @@ include_once('padrao/navbar.php');
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed cor-acorde" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
         Accordion Item #3
       </button>
     </h2>
@@ -73,7 +73,7 @@ include_once('padrao/navbar.php');
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed cor-acorde" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
         Accordion Item #4
       </button>
     </h2>

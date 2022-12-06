@@ -1,3 +1,10 @@
+:root{
+    --cor10:#011f4b;
+    --cor11:#03396c;
+    --cor12:#005b96;
+    --cor13:#6497b1;
+    --cor14:#b3cde0;
+}
 .margin-center{
     margin: 0 auto !important;
     max-width: 800px;
@@ -6,11 +13,21 @@
     margin: 0 auto !important;
     max-width: 1800px;
 }
-/*Header
-header{
-    background-color: black !important;
+body{
+    background-color: var(--cor14);
 }
-/*Index*/
+.cor{
+    background-color: var(--cor12) !important;
+}
+.cor2{
+    background-color: var(--cor13) !important;
+}
+.cor-acorde{
+    background-color: var(--cor13) !important;
+}
+.accordion-body{
+    background-color: #8ab5ca;
+}
 .ali{
     max-height: auto;
     max-width: 250px;
