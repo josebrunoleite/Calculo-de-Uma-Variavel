@@ -2,6 +2,8 @@
 include_once('padrao/header.php');
 include_once('padrao/navbar.php');
 ?>
+<script type='text/javascript' src='descartes-min.js'></script>
+<script type='text/javascript' src='descartesNF-min.js'></script>
 <body style="margin-bottom: 160px;">
     <!--<h1>Titulo 01</h1>
     <h2>Titulo 02</h2>
@@ -25,6 +27,11 @@ include_once('padrao/navbar.php');
         para construção de estruturas hidráulicas, topográficas e etc. As derivadas sua usada para cálculos de esforços 
         de estruturas, cálculos de momento fletor.</p>
         <img src="img\index\01.webp" alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
+    </div>
+    <div class="mt-3">
+
+
+     
     </div>
     </div>
 </body>

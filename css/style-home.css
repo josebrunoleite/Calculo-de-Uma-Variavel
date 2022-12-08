@@ -16,6 +16,9 @@
 body{
     background-color: var(--cor14);
 }
+#afastamento{
+    margin-bottom: 160px;
+}
 .cor{
     background-color: var(--cor12) !important;
 }
@@ -32,3 +35,9 @@ body{
     max-height: auto;
     max-width: 250px;
 }
+/*Heder*/
+.nav-link, .accordion-button{
+    color: white !important;
+}
+
+/*Acordion*/
