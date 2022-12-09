@@ -2,7 +2,7 @@
 include_once('padrao/header.php');
 include_once('padrao/navbar.php');
 ?>
-<body style="margin-bottom: 160px;">
+<body style="margin-bottom: 65px;">
     <!--<h1>Titulo 01</h1>
     <h2>Titulo 02</h2>
     <h3>Titulo 03</h3>

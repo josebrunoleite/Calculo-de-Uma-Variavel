@@ -101,18 +101,18 @@
           <a class="nav-link" href="derivadas.php">Limites</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Função</a>
+          <a class="nav-link" href="funcao.php">Função</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Alguma coisa</a>
+          <a class="nav-link" href="derivadas.php">Derivadas</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mini-Simulados
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="teste2.php">Simulado 01</a></li>
-            <li><a class="dropdown-item" href="teste2.php">Simulado 02</a></li>
+            <li><a class="dropdown-item" href="mini-simu.php">Simulado 01</a></li>
+            <li><a class="dropdown-item" href="mini-simu-2.php">Simulado 02</a></li>
             <!--<li><hr class="dropdown-divider"></li>-->
             <li><a class="dropdown-item" href="#">Simulado 03</a></li>
           </ul>

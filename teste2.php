@@ -5,7 +5,7 @@ include_once('padrao/navbar.php');
 <script type='text/javascript' src='descartes-min.js'></script>
 <script type='text/javascript' src='descartesNF-min.js'></script>
 
-<body style="margin-bottom: 160px;">
+<body style="margin-bottom: 65px;">
     <div id="Texto" class="d-flex text-center text-wrap flex-column mt-2">
         <hr>
         <h1>Mini-Simulado 01</h1>
@@ -58,7 +58,7 @@ include_once('padrao/navbar.php');
         <div class="mt-3">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                Resultadosjjkslk
+                Resultado da Questão 2
             </button>
 
             <!-- Modal -->
@@ -74,19 +74,12 @@ include_once('padrao/navbar.php');
                             Por que a resposta é essa mais essa, Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Enim itaque quis quibusdam distinctio? Laudantium nobis placeat possimus sit voluptate
                             temporibus optio quod facere blanditiis officiis itaque ad, illum fugiat
-                            excepturi.aaaaaaaaaajjjjjjjjjjjjaaaaaaaaaaaaaaaooooooooooooooooooooooooaaaaaaaaaajjjjjjjjjjjjaaaaaaaaaaaaaaaoooooooooooooooooooooooo
+                            excepturi.
                             <video loop="" preload="" id="video" controls="" poster="loading.gif"
                                 height="500vw">
                                 <source src="../DIALOGUE.mp4" type="video/mp4">
                             </video>
-                            <input id="pause" type="button" value="Pause" onclick="My_Video()" />
-                                Pause Video
-                            </button>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lOGwN-W1fpM"
-                                title="YouTube video player"
-                                id="video" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                            <input id="pause" type="button" value="Pause" onclick="My_Video()"/>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" onclick="My_Video()" data-bs-dismiss="modal">fechar</button>
