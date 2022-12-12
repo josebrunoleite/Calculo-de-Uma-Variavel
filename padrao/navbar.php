@@ -86,7 +86,7 @@
   <!- Container wrapper 
 </nav>-->
 
-<nav class="navbar navbar-expand-lg cor nav justify-content-center">
+<nav class="navbar navbar-expand-lg cor nav fixed-top justify-content-center">
   <div class="container-fluid fw-bold fs-6">
    <!-- <a class="navbar-brand" href="#">Calculo-On</a>-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">

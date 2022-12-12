@@ -3,7 +3,7 @@ include_once('padrao/header.php');
 include_once('padrao/navbar.php');
 ?>
 
-<body style="margin-bottom: 65px;">
+<body style="margin-bottom: 0px;margin-top: 60px;">
     <!--Info 2-->
 
     <div class="card cor2 mb-3 container mt-3 flex-wrap d-flex p-4">
@@ -51,7 +51,7 @@ include_once('padrao/navbar.php');
                     <div class="accordion-body">
                         Derivada nada mais é: O coeficiente angular da reta tangente a f no ponto de abscissa
                             x0.<br>
-                            <a href="#" class="btn btn-danger">Saiba mais</a>
+                            <a href="derivadas.php" class="btn btn-danger">Saiba mais</a>
                     </div>
                     
                 </div>
@@ -68,9 +68,8 @@ include_once('padrao/navbar.php');
                     <div class="accordion-body">
                         <p>No ramo da engenharia o uso das derivadas é bastante frequente, nas
                             construções de grande porte a derivada é usada para calcular por exemplo, o dimensionamento
-                            de vigas, para construção de estruturas hidráulicas, topográficas e etc. As derivadas sua
-                            usada
-                            para cálculos de esforços de estruturas, cálculos de momento fletor.</p>
+                            de vigas, para construção de estruturas hidráulicas, topográficas e etc. As derivadas são
+                            usadas para cálculos de esforços de estruturas e cálculos de momento fletor.</p>
                     </div>
                 </div>
             </div>
@@ -135,8 +134,9 @@ include_once('padrao/navbar.php');
                 <div class="card">
                     <div class="card-body cor2">
                         <h5 class="card-title">Desenvolvido por Alunos da Faculdade Unijorge</h5>
-                        <p class="card-text">Em breve.</p>
-                        <a href="#" class="btn btn-danger">Saber mais</a>
+                        <p class="card-text">Bruno Perzentino, Geovani Cordeiro, Filipe Oliveira, João Lucas, José Bruno, 
+                            Mateus Alvez, Nathan Morais e Ricardo Ramos .</p>
+                        <a href="https://www.unijorge.edu.br/" class="btn btn-danger">Saber mais</a>
                     </div>
                 </div>
             </div>
@@ -144,8 +144,8 @@ include_once('padrao/navbar.php');
                 <div class="card">
                     <div class="card-body cor2">
                         <h5 class="card-title">GitHub do Projeto</h5>
-                        <p class="card-text">EM Breve.</p>
-                        <a href="#" class="btn btn-danger">Saber mais</a>
+                        <p class="card-text">Codigo do site foi liberado no GitHub, para o acesso de todos.</p>
+                        <a href="https://github.com/josebrunoleite/Calculo-de-Uma-Variavel" class="btn btn-danger">GitHub</a>
                     </div>
                 </div>
             </div>

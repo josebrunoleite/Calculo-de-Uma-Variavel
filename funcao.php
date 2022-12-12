@@ -6,7 +6,16 @@ include_once('padrao/navbar.php');
 <script type='text/javascript' src='descartes-min.js'></script>
 <script type='text/javascript' src='descartesNF-min.js'></script>
 
-<body style="margin-bottom: 65px;">
+<body style="margin-bottom: 0px; margin-top: 60px">
+<style>
+    footer{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1030;
+    }
+</style>
     <!--<h1>Titulo 01</h1>
     <h2>Titulo 02</h2>
     <h3>Titulo 03</h3>

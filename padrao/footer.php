@@ -1,4 +1,4 @@
-<footer class="bg-light text-center fixed-bottom text-white">
+<footer class="bg-light text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0" style="
     display: none;" >

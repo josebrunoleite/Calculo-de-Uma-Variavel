@@ -5,7 +5,7 @@ include_once('padrao/navbar.php');
 <script type='text/javascript' src='descartes-min.js'></script>
 <script type='text/javascript' src='descartesNF-min.js'></script>
 
-<body style="margin-bottom: 0px;">
+<body style="margin-bottom: 0px; margin-top: 60px">
     <div id="Texto" class="d-flex text-center text-wrap flex-column mt-2">
         <hr>
         <h1>Exercício</h1>
@@ -14,7 +14,7 @@ include_once('padrao/navbar.php');
             <h3>Questão 01</h3>
             <p>Resolva a Seguinte derivada.</p>
             <img src="https://cdn.discordapp.com/attachments/952954997665058828/1050836789939666944/image.png"
-                alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
+                alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto; width: auto;height: auto;">
         </div>
         <div class="mt-3">
             <!-- Button trigger modal -->
@@ -33,12 +33,11 @@ include_once('padrao/navbar.php');
                         </div>
                         <div class="modal-body">
                             <img src="https://media.discordapp.net/attachments/1006716643512172666/1050873984436154449/image.png"
-                                alt="Banner" height="350px" width="1030" class="d-flex mt-1" style="margin: 0 auto;">
+                                alt="Banner" height="350px" width="1030" class="d-flex mt-1" style="margin: 0 auto; width: -webkit-fill-available;">
 
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn btn-primary">Download</button>
                         </div>
                     </div>
                 </div>
@@ -51,7 +50,7 @@ include_once('padrao/navbar.php');
             <h3>Questão 02</h3>
             <p>Resolva a Seguinte derivada.</p>
             <img src="https://media.discordapp.net/attachments/952954997665058828/1050838112349208576/image.png"
-                alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
+                alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto; width: auto;height: auto;">
         </div>
         <div class="mt-3">
             <!-- Button trigger modal -->
@@ -70,7 +69,7 @@ include_once('padrao/navbar.php');
                         </div>
                         <div class="modal-body">
                             <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213189620191373/image.png"
-                                alt="Banner" height="450px" width="1030" class="d-flex mt-1" style="margin: 0 auto;">
+                                alt="Banner" height="450px" width="1030" class="d-flex mt-1" style="margin: 0 auto; width: -webkit-fill-available;">
                             <hr>
                             <h2>Vídeo Explicativo</h2>
                             <video loop="" preload="" id="video" controls="" poster="loading.gif" height="500vw">
@@ -79,7 +78,6 @@ include_once('padrao/navbar.php');
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" onclick="My_Video()"
                                 data-bs-dismiss="modal">fechar</button>
-                            <button type="button" class="btn btn-primary" id="pause">Download</button>
                         </div>
                     </div>
                 </div>
@@ -90,7 +88,7 @@ include_once('padrao/navbar.php');
                 <h3>Questão 03</h3>
                 <p>Resolva a Seguinte derivada.</p>
                 <img src="https://media.discordapp.net/attachments/952954997665058828/1050841916373213284/image.png"
-                    alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
+                    alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto; width: auto;height: auto;">
             </div>
             <div class="mt-3">
                 <!-- Button trigger modal -->
@@ -111,12 +109,11 @@ include_once('padrao/navbar.php');
                             <div class="modal-body">
                                 <img src="https://media.discordapp.net/attachments/981329982422941716/1051602715387625582/image.png"
                                     alt="Banner" height="600px" width="1030" class="d-flex mt-1"
-                                    style="margin: 0 auto;">
+                                    style="margin: 0 auto; width: -webkit-fill-available;">
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" onclick="My_Video()"
                                     data-bs-dismiss="modal">fechar</button>
-                                <button type="button" class="btn btn-primary" id="pause">Download</button>
                             </div>
                         </div>
                     </div>

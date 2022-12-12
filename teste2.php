@@ -5,7 +5,7 @@ include_once('padrao/navbar.php');
 <script type='text/javascript' src='descartes-min.js'></script>
 <script type='text/javascript' src='descartesNF-min.js'></script>
 
-<body style="margin-bottom: 65px;">
+<body style="margin-bottom: 0px;margin-top: 60px">
     <div id="Texto" class="d-flex text-center text-wrap flex-column mt-2">
         <hr>
         <h1>Mini-Simulado 01</h1>
@@ -39,7 +39,6 @@ include_once('padrao/navbar.php');
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn btn-primary">Download</button>
                         </div>
                     </div>
                 </div>
@@ -83,7 +82,6 @@ include_once('padrao/navbar.php');
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" onclick="My_Video()" data-bs-dismiss="modal">fechar</button>
-                            <button type="button" class="btn btn-primary" id="pause">Download</button>
                         </div>
                     </div>
                 </div>
