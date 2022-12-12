@@ -23,7 +23,7 @@ include_once('padrao/navbar.php');
             </button>
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="exampleModal" tabindex="-1" onclick="My_Video()" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
@@ -32,12 +32,19 @@ include_once('padrao/navbar.php');
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213883588759562/image.png" alt="Banner" max-height="350px" class="d-flex mt-1" style="margin: 0 auto;">
-                            <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213963435724830/image.png" alt="Banner" max-height="350px" class="d-flex mt-1" style="margin: 0 auto;">
+                            <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213883588759562/image.png"
+                                alt="Banner" max-height="350px" class="d-flex mt-1" style="margin: 0 auto;">
+                            <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213963435724830/image.png"
+                                alt="Banner" max-height="350px" class="d-flex mt-1" style="margin: 0 auto;">
+                            <hr>
+                            <h2>Vídeo Explicativo</h2>
+                            <video loop="" preload="" id="video" controls="" poster="loading.gif" height="500vw">
+                                <source src="img/p-i.mp4" type="video/mp4">
+                            </video>
 
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-secondary" onclick="My_Video()" data-bs-dismiss="modal ">Fechar</button>
                             <button type="button" class="btn btn-primary">Download</button>
                         </div>
                     </div>
@@ -69,8 +76,8 @@ include_once('padrao/navbar.php');
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="https://media.discordapp.net/attachments/1026969031556743212/1051204557109215343/image.png" alt="Banner" height="450px" width="1030" class="d-flex mt-1"
-                                style="margin: 0 auto;">
+                            <img src="https://media.discordapp.net/attachments/1026969031556743212/1051204557109215343/image.png"
+                                alt="Banner" height="450px" width="1030" class="d-flex mt-1" style="margin: 0 auto;">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" onclick="My_Video()"
@@ -118,18 +125,18 @@ include_once('padrao/navbar.php');
                 </div>
                 <hr>-->
 
-            </div>
         </div>
-        <div class="mb-5"></div>
-        
+    </div>
+    <div class="mb-5"></div>
 
-        <?php
+
+    <?php
 include_once('padrao/footer.php');
 ?>
-        <script type="text/javascript">
-        var videopause = document.getElementById("video");
+    <script type="text/javascript">
+    var videopause = document.getElementById("video");
 
-        function My_Video() {
-            videopause.pause();
-        }
-        </script>
+    function My_Video() {
+        videopause.pause();
+    }
+    </script>

@@ -32,8 +32,8 @@ include_once('padrao/navbar.php');
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="https://media.discordapp.net/attachments/1006716643512172666/1050873984436154449/image.png" alt="Banner" height="350px" width="1030" class="d-flex mt-1"
-                                style="margin: 0 auto;">
+                            <img src="https://media.discordapp.net/attachments/1006716643512172666/1050873984436154449/image.png"
+                                alt="Banner" height="350px" width="1030" class="d-flex mt-1" style="margin: 0 auto;">
 
                         </div>
                         <div class="modal-footer">
@@ -69,8 +69,12 @@ include_once('padrao/navbar.php');
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213189620191373/image.png" alt="Banner" height="450px" width="1030" class="d-flex mt-1"
-                                style="margin: 0 auto;">
+                            <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213189620191373/image.png"
+                                alt="Banner" height="450px" width="1030" class="d-flex mt-1" style="margin: 0 auto;">
+                            <hr>
+                            <h2>Vídeo Explicativo</h2>
+                            <video loop="" preload="" id="video" controls="" poster="loading.gif" height="500vw">
+                                <source src="img/s-derivada.mp4" type="video/mp4">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" onclick="My_Video()"
@@ -105,7 +109,8 @@ include_once('padrao/navbar.php');
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <img src="https://media.discordapp.net/attachments/981329982422941716/1051602715387625582/image.png" alt="Banner" height="600px" width="1030" class="d-flex mt-1"
+                                <img src="https://media.discordapp.net/attachments/981329982422941716/1051602715387625582/image.png"
+                                    alt="Banner" height="600px" width="1030" class="d-flex mt-1"
                                     style="margin: 0 auto;">
                             </div>
                             <div class="modal-footer">
