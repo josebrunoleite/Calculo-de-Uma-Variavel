@@ -8,12 +8,12 @@ include_once('padrao/navbar.php');
 <body style="margin-bottom: 0px;">
     <div id="Texto" class="d-flex text-center text-wrap flex-column mt-2">
         <hr>
-        <h1>Mini-Simulado 03</h1>
+        <h1>Exercício</h1>
         <hr>
         <div class="container">
             <h3>Questão 01</h3>
-            <p>Resolva a Seguinte derivada.</p>
-            <img src="https://cdn.discordapp.com/attachments/952954997665058828/1050836789939666944/image.png"
+            <p>Resolva a seguinte Intregal.</p>
+            <img src="https://media.discordapp.net/attachments/981329982422941716/1051208202445934662/image.png"
                 alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
         </div>
         <div class="mt-3">
@@ -32,12 +32,8 @@ include_once('padrao/navbar.php');
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="img\mini1\q1\01.png" alt="Banner" height="350px" class="d-flex mt-1"
-                                style="margin: 0 auto;">
-                            <img src="img\mini1\q1\001.png" alt="Banner" height="350px" class="d-flex mt-1"
-                                style="margin: 0 auto;">
-                            <img src="img\mini1\q1\0001.png" alt="Banner" height="350px" class="d-flex mt-1"
-                                style="margin: 0 auto;">
+                            <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213883588759562/image.png" alt="Banner" max-height="350px" class="d-flex mt-1" style="margin: 0 auto;">
+                            <img src="https://media.discordapp.net/attachments/1051206841125842964/1051213963435724830/image.png" alt="Banner" max-height="350px" class="d-flex mt-1" style="margin: 0 auto;">
 
                         </div>
                         <div class="modal-footer">
@@ -53,8 +49,8 @@ include_once('padrao/navbar.php');
         <!-- QUestão 02-->
         <div class="container">
             <h3>Questão 02</h3>
-            <p>Resolva a Seguinte derivada.</p>
-            <img src="https://media.discordapp.net/attachments/952954997665058828/1050838112349208576/image.png"
+            <p>Resolva a seguinte Intregal.</p>
+            <img src="https://media.discordapp.net/attachments/981329982422941716/1051208776931356672/image.png"
                 alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
         </div>
         <div class="mt-3">
@@ -73,7 +69,7 @@ include_once('padrao/navbar.php');
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="img\mini1\q2\02.png" alt="Banner" height="350px" class="d-flex mt-1"
+                            <img src="https://media.discordapp.net/attachments/1026969031556743212/1051204557109215343/image.png" alt="Banner" height="450px" width="1030" class="d-flex mt-1"
                                 style="margin: 0 auto;">
                         </div>
                         <div class="modal-footer">
@@ -85,20 +81,20 @@ include_once('padrao/navbar.php');
                 </div>
             </div>
             <hr>
-            <!-- QUestão 03-->
+            <!-- QUestão 03
             <div class="container">
                 <h3>Questão 03</h3>
-                <p>Resolva a Seguinte derivada.</p>
-                <img src="https://media.discordapp.net/attachments/952954997665058828/1050841916373213284/image.png"
+                <p>Resolva a seguinte Intregal.</p>
+                <img src="https://media.discordapp.net/attachments/981329982422941716/1051208269814825000/image.png"
                     alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
             </div>
             <div class="mt-3">
-                <!-- Button trigger modal -->
+                 Button trigger modal
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                     Resultado da Questão 3
                 </button>
 
-                <!-- Modal -->
+                 Modal 
                 <div class="modal fade" id="exampleModal3" tabindex="-1" onclick="My_Video()"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-xl">
@@ -109,7 +105,7 @@ include_once('padrao/navbar.php');
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <img src="img\mini1\q3\03.png" alt="Banner" height="350px" class="d-flex mt-1"
+                                <img src="https://media.discordapp.net/attachments/1026969031556743212/1051204557109215343/image.png" alt="Banner" height="450px" width="1030" class="d-flex mt-1"
                                     style="margin: 0 auto;">
                             </div>
                             <div class="modal-footer">
@@ -120,7 +116,7 @@ include_once('padrao/navbar.php');
                         </div>
                     </div>
                 </div>
-                <hr>
+                <hr>-->
 
             </div>
         </div>

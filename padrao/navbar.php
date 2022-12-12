@@ -98,23 +98,23 @@
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="derivadas.php">Limites</a>
+          <a class="nav-link" href="derivadas.php">Derivada</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="funcao.php">Função</a>
+          <a class="nav-link" href="funcao.php">Continuidade</a>
         </li>
-        <li class="nav-item">
+        <!--<li class="nav-item">
           <a class="nav-link" href="derivadas.php">Derivadas</a>
-        </li>
+        </li>-->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Mini-Simulados
+            Exercício
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="mini-simu.php">Simulado 01</a></li>
-            <li><a class="dropdown-item" href="mini-simu-2.php">Simulado 02</a></li>
+            <li><a class="dropdown-item" href="mini-simu.php">Derivadas</a></li>
+            <li><a class="dropdown-item" href="mini-simu-2.php">L&CloseCurlyQuote;Hospital</a></li>
             <!--<li><hr class="dropdown-divider"></li>-->
-            <li><a class="dropdown-item" href="#">Simulado 03</a></li>
+            <li><a class="dropdown-item" href="mini-simu-3.php">Integral</a></li>
           </ul>
         </li>
       </ul>

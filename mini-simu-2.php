@@ -8,21 +8,21 @@ include_once('padrao/navbar.php');
 <body style="margin-bottom: 0px;">
     <div id="Texto" class="d-flex text-center text-wrap flex-column mt-2">
         <hr>
-        <h1>Mini-Simulado 02</h1>
+        <h1>Exercício</h1>
         <hr>
         <div class="container">
-            <h3>Questão 01</h3>
+          <!--  <h3>Questão 01</h3>
             <p>Resolva a seguinte Integral.</p>
             <img src="https://media.discordapp.net/attachments/952954997665058828/1050844629907538041/image.png"
                 alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
         </div>
         <div class="mt-3">
-            <!-- Button trigger modal -->
+           Button trigger modal 
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Resultado da Questão 1
             </button>
 
-            <!-- Modal -->
+           Modal 
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -44,13 +44,12 @@ include_once('padrao/navbar.php');
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
         </div>
-        <hr>
         <!-- QUestão 02-->
         <div class="container">
-            <h3>Questão 02</h3>
+            <h3>Questão 01</h3>
             <p>Resolva a seguinte questão utilizando o conceito de L&CloseCurlyQuote;Hospital.</p>
             <img src="https://media.discordapp.net/attachments/952954997665058828/1050845029352087612/image.png"
                 alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
@@ -58,7 +57,7 @@ include_once('padrao/navbar.php');
         <div class="mt-3">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                Resultado da Questão 2
+                Resultado da Questão 1
             </button>
 
             <!-- Modal -->
@@ -67,11 +66,11 @@ include_once('padrao/navbar.php');
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Resultado da questão 02</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Resultado da questão 01</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="https://media.discordapp.net/attachments/1026969031556743212/1050865611728764988/image.png" alt="Banner" height="350px" width="1030" class="d-flex mt-1"
+                            <img src="https://media.discordapp.net/attachments/1026969031556743212/1050865611728764988/image.png" alt="Banner" height="450px" width="1030" class="d-flex mt-1"
                                 style="margin: 0 auto;">
                         </div>
                         <div class="modal-footer">

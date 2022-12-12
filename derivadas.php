@@ -11,20 +11,19 @@ include_once('padrao/navbar.php');
     <img src="img/index/02.jpg" width="200px" alt="">-->
     <div id="Texto" class="d-flex text-center text-wrap flex-column mt-2">
 <hr>
-    <h1>Conceito de uma derivada</h1>
+    <h1>Derivada</h1>
     <hr>
     <div class="container">
-    <h3>A derivada nada mais é: O coeficiente angular da reta tangente a f no ponto de abscissa x0.</h3>
-    <p>Derivadas na Engenharia: No ramo da engenharia o uso das derivadas é bastante frequente, 
-        nas construções de grande porte a derivada é usada para calcular por exemplo, o dimensionamento de vigas,
-        para construção de estruturas hidráulicas, topográficas e etc. As derivadas sua usada para cálculos de esforços 
-        de estruturas, cálculos de momento fletor. </p>
-        <img src="img\header\01.jpg" alt="Banner" height="200px" class="d-flex" style="margin: 0 auto;">
-        <p class="mt-2">Derivadas na Engenharia: No ramo da engenharia o uso das derivadas é bastante frequente, 
-        nas construções de grande porte a derivada é usada para calcular por exemplo, o dimensionamento de vigas,
-        para construção de estruturas hidráulicas, topográficas e etc. As derivadas sua usada para cálculos de esforços 
-        de estruturas, cálculos de momento fletor.</p>
-        <img src="img\index\01.webp" alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">
+    <p>Regras de derivação: Sejam f (x) e g (x) funções deriváveis e seja a um número real qualquer. Então, valem as propriedades:<br>
+<div class="text-start" style="margin: 0 20rem;">
+I) Se f (x) = a, então f ' (x) = 0<br>
+II) Se f (x) = ax, então f ' (x) = a<br>
+III) (Derivada da soma): f (x) + g (x) = f ' (x) + g' (x)<br>
+IV) (Regra do produto): f (x) g (x) = f ' (x) g (x) + f (x) g' (x)<br>
+VI) (Regra do quociente): <img src="https://media.discordapp.net/attachments/981329982422941716/1051650745369362442/image.png" height="45px" alt=""> <br>
+VII) (Regra da cadeia): f(g(x)) é f'(g(x))⋅g'(x)</p><br>
+        <!--<img src="img\index\01.webp" alt="Banner" height="200px" class="d-flex mt-1" style="margin: 0 auto;">-->
+        </div>
     </div>
     </div>
 </body>

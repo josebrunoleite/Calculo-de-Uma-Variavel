@@ -134,7 +134,7 @@ include_once('padrao/navbar.php');
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body cor2">
-                        <h5 class="card-title">Desnvolvido por Alunos da Faculdade Unijorge</h5>
+                        <h5 class="card-title">Desenvolvido por Alunos da Faculdade Unijorge</h5>
                         <p class="card-text">Em breve.</p>
                         <a href="#" class="btn btn-danger">Saber mais</a>
                     </div>
@@ -143,7 +143,7 @@ include_once('padrao/navbar.php');
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body cor2">
-                        <h5 class="card-title">Github do Projeto</h5>
+                        <h5 class="card-title">GitHub do Projeto</h5>
                         <p class="card-text">EM Breve.</p>
                         <a href="#" class="btn btn-danger">Saber mais</a>
                     </div>
