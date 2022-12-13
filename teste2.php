@@ -39,6 +39,7 @@ include_once('padrao/navbar.php');
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Download</button>
                         </div>
                     </div>
                 </div>
@@ -82,6 +83,7 @@ include_once('padrao/navbar.php');
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" onclick="My_Video()" data-bs-dismiss="modal">fechar</button>
+                            <button type="button" class="btn btn-primary" id="pause">Download</button>
                         </div>
                     </div>
                 </div>

@@ -39,7 +39,10 @@ include_once('padrao/navbar.php');
             <br>
             C) <img src="img/funcao/image.png" alt=""> = f(a)<br>
             <br>
-            Se uma dessas alternativas acima for considerada falsa, dizemos que a função f(x) é descontínua no ponto x = a.
+            Se uma dessas alternativas acima for considerada falsa, dizemos que a função f(x) é descontínua no ponto x = a.<br>
+            <hr>
+            Exemplo abaixo.<br>
+            <img src="https://media.discordapp.net/attachments/981329982422941716/1052013980203364393/image.png" height="200px" alt="">
 
 
         </div>
